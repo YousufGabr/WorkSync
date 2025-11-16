@@ -1,0 +1,5 @@
+CREATE DATABASE SA_L7;
+USE SA_L7;
+CREATE TABLE soquor( ID int PRIMARY KEY AUTO_INCREMENT,Name varchar(255) NOT NULL, Age int NOT NULL,Checkin TIME,Checkout TIME,Permissions int DEFAULT 2,Absence int DEFAULT 21);
+INSERT INTO soquor(Name,Age)
+    -> VALUES ('','');
