@@ -143,36 +143,9 @@ Admin-only configuration area.
 
 ---
 
-# **🗄️ Database Structure (MySQL)**
-
-WorkSync uses structured MySQL tables, including:
-
-### **employees**
-
-| Field          | Type    |
-| -------------- | ------- |
-| id             | INT     |
-| name           | VARCHAR |
-| job_title      | VARCHAR |
-| face_embedding | BLOB    |
-| etc.           | ...     |
-
-### **attendance**
-
-| Field       | Type              |
-| ----------- | ----------------- |
-| employee_id | INT               |
-| date        | DATE              |
-| time        | TIME              |
-| status      | ENUM("IN", "OUT") |
-
-(You can add indexes for faster searching.)
-
----
-
 # **🛠️ Technologies Used**
 
-* **Python** / C# / (your language—fill in as needed)
+* **Python** / SQL
 * **MySQL** (data storage)
 * **OpenCV** (face detection)
 * **Machine Learning Model** (face recognition)
@@ -190,13 +163,3 @@ WorkSync uses structured MySQL tables, including:
 * Attendance anomaly detection
 
 ---
-
-If you'd like, I can also:
-
-✅ Add install instructions
-✅ Add code snippets
-✅ Add a project logo
-✅ Format it into a professional GitHub profile style
-✅ Convert it to a structured PDF or website-style documentation
-
-Just tell me!
