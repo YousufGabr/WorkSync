@@ -1,3 +1,4 @@
+import os
 from datetime import datetime
 from tkinter import *
 from tkinter import ttk
@@ -315,20 +316,19 @@ def checkout():
     tv.after(1,tv_data)
 
 
-
-
 #main images
 #images must be 400x128
-employee = PhotoImage(file=r'C:\Users\Yousuf Gabr\Desktop\MahaTech\Icons\Employee.png')
-search = PhotoImage(file=r'C:\Users\Yousuf Gabr\Desktop\MahaTech\Icons\Search.png')
-search2 = PhotoImage(file=r'C:\Users\Yousuf Gabr\Desktop\MahaTech\Icons\Search mini.png')
-add= PhotoImage(file=r'C:\Users\Yousuf Gabr\Desktop\MahaTech\Icons\Add.png')
-remove= PhotoImage(file=r'C:\Users\Yousuf Gabr\Desktop\MahaTech\Icons\Remove.png')
-permission= PhotoImage(file=r'C:\Users\Yousuf Gabr\Desktop\MahaTech\Icons\permission.png')
-absent=  PhotoImage(file=r'C:\Users\Yousuf Gabr\Desktop\MahaTech\Icons\absent.png')
-camera= PhotoImage(file=r'C:\Users\Yousuf Gabr\Desktop\MahaTech\Icons\Camera.png')
-settings= PhotoImage(file=r'C:\Users\Yousuf Gabr\Desktop\MahaTech\Icons\Settings.png')
-face_rec= PhotoImage(file=r'C:\Users\Yousuf Gabr\Desktop\MahaTech\Icons\Scan.png')
+script_directory = os.path.dirname(os.path.abspath(__file__))
+employee = PhotoImage(file=os.path.join(script_directory, r'Icons\Employee.png'))
+search = PhotoImage(file=os.path.join(script_directory, r'Icons\Search.png'))
+search2 = PhotoImage(file=os.path.join(script_directory, r'Icons\Search mini.png'))
+add= PhotoImage(file=os.path.join(script_directory, r'Icons\Add.png'))
+remove= PhotoImage(file=os.path.join(script_directory, r'Icons\Remove.png'))
+permission= PhotoImage(file=os.path.join(script_directory, r'Icons\permission.png'))
+absent=  PhotoImage(file=os.path.join(script_directory, r'Icons\absent.png'))
+camera= PhotoImage(file=os.path.join(script_directory, r'Icons\Camera.png'))
+settings= PhotoImage(file=os.path.join(script_directory, r'Icons\Settings.png'))
+face_rec= PhotoImage(file=os.path.join(script_directory, r'Icons\Scan.png'))
 
 #Main Window:
 #Creating tabs:
