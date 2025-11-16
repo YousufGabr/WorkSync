@@ -36,7 +36,9 @@ WorkSync is built to improve attendance accuracy and employee data management us
 
 # **🚀 System Workflow**
 
-This describes everything **from the moment you run the program**.
+First you get the **Login Options**.
+
+![Alt text](WorkSync/WorkFlow/Login.PNG)
 
 ---
 
@@ -48,7 +50,7 @@ When the program starts, WorkSync presents the user with **three login choices**
 
 Admins can enter their password to access the full system dashboard.
 
-***Add Image Here***
+![Alt text](WorkSync/WorkFlow/Password.png)
 
 ---
 
@@ -56,15 +58,13 @@ Admins can enter their password to access the full system dashboard.
 
 Admins can log in using the face recognition AI model for enhanced security.
 
-***Add Image Here***
-
 ---
 
 ### **• Free Login (Employee Attendance Only)**
 
 For regular employees—allows simple check-in/check-out **without accessing any admin screens**.
 
-***Add Image Here***
+![Alt text](WorkSync/WorkFlow/freelog.PNG)
 
 ---
 
@@ -82,8 +82,6 @@ For regular employees—allows simple check-in/check-out **without accessing any
 
 Once an admin logs in, they access a 4-tab interface designed for full employee and attendance management.
 
-***Add Image of Dashboard Overview Here***
-
 ---
 
 ## **1️⃣ Employees Tab**
@@ -95,8 +93,14 @@ Displays the full employee list from the MySQL database.
 * View all employee data
 * Sort employees by **ID** or **Name**
 * Clean table design with icons
+* Add new employees through a dedicated form
 
-***Add Image Here***
+![Alt text](WorkSync/WorkFlow/tab1.PNG)
+
+WorkSync allows administrators to add new employees directly from this tab.
+The system collects personal details and face data (if required) and saves them to the MySQL database.
+
+![Alt text](WorkSync/WorkFlow/AddEmployee.png)
 
 ---
 
@@ -110,7 +114,7 @@ Used to find a specific employee and update their information.
 * Edit employee data directly
 * Save changes to MySQL instantly
 
-***Add Image Here***
+![Alt text](WorkSync/WorkFlow/tab2.PNG)
 
 ---
 
@@ -125,7 +129,11 @@ This tab activates the webcam and uses AI to identify employees.
 * Automatic attendance logging
 * Differentiates **Check In** vs **Check Out**
 
-***Add Image Here***
+![Alt text](WorkSync/WorkFlow/tab3.PNG)
+
+Data after check in/out will look like this:
+
+![Alt text](WorkSync/WorkFlow/AfterCheckinout.png)
 
 ---
 
@@ -139,7 +147,7 @@ Admin-only configuration area.
 * Manage system security settings
 * Future expansion (e.g., theme, logs, permissions)
 
-***Add Image Here***
+![Alt text](WorkSync/WorkFlow/tab4.PNG)
 
 ---
 
