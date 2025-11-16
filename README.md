@@ -5,24 +5,6 @@ With a clean GUI, integrated MySQL database, and multiple secure login methods, 
 
 ---
 
-# **📌 Table of Contents**
-
-1. [Overview](#overview)
-2. [Features](#features)
-3. [System Workflow](#system-workflow)
-4. [Login Methods](#login-methods)
-5. [Admin Dashboard](#admin-dashboard)
-
-   * [Employees Tab](#employees-tab)
-   * [Search & Edit Tab](#search--edit-tab)
-   * [Face Recognition Check-in/Check-out](#face-recognition-tab)
-   * [Settings Tab](#settings-tab)
-6. [Database Structure](#database-structure)
-7. [Technologies Used](#technologies-used)
-8. [Future Enhancements](#future-enhancements)
-
----
-
 # **📘 Overview**
 
 WorkSync is built to improve attendance accuracy and employee data management using AI-driven face recognition. It ensures security by restricting the full dashboard to administrators, while still providing quick and easy attendance access for regular employees.
