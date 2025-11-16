@@ -157,7 +157,7 @@ Admin-only configuration area.
 * **MySQL** (data storage)
 * **OpenCV** (face detection)
 * **Machine Learning Model** (face recognition)
-* **GUI Framework** (e.g., PyQt, Tkinter, WinForms — specify your choice)
+* **GUI Framework** (Tkinter)
 * **Icons & Modern UI Design**
 
 ---
