@@ -126,7 +126,7 @@ This tab activates the webcam and uses AI to identify employees.
 
 * Real-time face detection
 * Recognition with ML model
-* Automatic attendance logging
+* Attendance logging
 * Differentiates **Check In** vs **Check Out**
 
 ![Alt text](WorkSync/WorkFlow/tab3.PNG)
@@ -144,7 +144,6 @@ Admin-only configuration area.
 ### **Features:**
 
 * Change login password
-* Manage system security settings
 * Future expansion (e.g., theme, logs, permissions)
 
 ![Alt text](WorkSync/WorkFlow/tab4.PNG)
